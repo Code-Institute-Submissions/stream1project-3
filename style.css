@@ -31,6 +31,67 @@ ul{
     width:100%;
    
 }
+
+/*---------------------Index Page*/
+
+.mainbox{
+    padding: 0px;
+    margin-bottom: -2px;
+}
+
+.mainimg {
+    width:100%;
+    padding: 0px;
+    position: relative; 
+    
+}
+
+.mainimg1 {
+    padding: 0px;
+}
+
+.maintext{
+    position: absolute;
+    top:-1%;
+    right: 0%;
+     text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 3em;
+    color: #fefefe;
+    letter-spacing: 25px;
+
+}
+
+.mainparagraph{
+    position: absolute;
+    color:#fefefe;
+    top:90%;
+    left: 20%;
+    font-family: Oswald, sans-serif;
+    font-size: 3rem;
+
+}
+
+
+.mainparagraph2{
+    position: absolute;
+    color:#fefefe;
+    top:95%;
+    left: 5%;
+    font-family: Oswald, sans-serif;
+    font-size: 1rem;
+        letter-spacing: 5px;
+
+    
+    
+  
+  
+}
+
+
+
+
+
 /*---------------------AthletePages*/
 
 .athlete{
@@ -77,9 +138,6 @@ ul{
 
 /*---------------------Images*/
 
-.mainimg {
-    width:100%;
-}
 
 .boximg {
     width: 100%;
@@ -145,8 +203,20 @@ body {
 
 .pro{
     padding:0px;
+    position: relative; 
 }
 
+.profilename{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    color: #fefefe;
+
+
+
+    
+}
 
 /*---------------------footer*/
 
@@ -160,6 +230,28 @@ body {
 }
 
     
+/*---------------------Desktop*/
+
+@media only screen and (min-width: 1170px) {
+    
+    .pro:hover{
+        opacity: .5;
+    }
+    
+    .profilename{
+        display: none;
+    }
+    
+
+    .maintext{
+        font-size: 5rem;
+    }
+    
+  
+    
+}
+
+
 
 
 
