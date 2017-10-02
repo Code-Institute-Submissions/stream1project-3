@@ -1,0 +1,166 @@
+/*---------------------Header*/
+
+
+
+.icon-bar{
+    background-color: black;
+}
+
+.starboardlogo{
+width: 14%;
+align-items: center;
+}
+
+
+.nav{
+   text-align: center;
+}
+
+ul{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    
+}
+/*---------------------Fonts*/
+
+
+/*---------------------Pages*/
+
+
+.containerfluid{
+    width:100%;
+   
+}
+/*---------------------AthletePages*/
+
+.athlete{
+    width:100%;
+    height:100%;
+}
+
+.row {
+    height:33.3%;
+}
+
+.abox{
+    max-height: 33.3%;
+    border: solid;
+}
+
+#profileimg{
+    width: 100%;
+}
+
+.athleteh1{
+    text-align: center;
+
+}
+
+
+/*---------------------AthleteSocial*/
+
+.social{
+    background-color: green
+}
+
+.logo{
+    width:100%;
+}
+
+
+/*---------------------AthleteSchedule*/
+
+
+
+
+
+
+/*---------------------Images*/
+
+.mainimg {
+    width:100%;
+}
+
+.boximg {
+    width: 100%;
+}
+
+.brands {
+    width: 100%;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+/*---------------------video*/
+
+.plasticvid {
+    width:640px;
+    height:480px ;
+}
+
+.fullscreen_bg {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    background-attachment: fixed;
+    
+}
+
+.fullscreen-bg_video {
+        top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  background-attachment: fixed;
+}
+
+
+.videotxt {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+}
+
+
+/*---------------------profiles*/
+
+.pimg{
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    height:100%;
+    
+}
+
+.pro{
+    padding:0px;
+}
+
+
+/*---------------------footer*/
+
+.arkite{
+    width:50%;
+    
+}
+
+.svsail{
+    width:50%;
+}
+
+    
+
+
+
+
