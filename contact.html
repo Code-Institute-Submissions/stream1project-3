@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+<meta charset="utf-8">
+<title>Hello...</title>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <link rel="stylesheet" href="reset.css" type="text/css" />
+      <link rel="stylesheet" href="style.css" type="text/css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+
+</head>
+<div class="container-fluid">
+<header>
+	<div class="navbar">
+			<div class="row">
+				<div class="col-xs-offset-4 col-xs-4 col-sm-offset-1 col-sm-offset-10   ">
+        <div class="container">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                
+            </button>
+        </div>
+        <ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
+
+            <li class="home"> <a class="menu-text" href="index.html">HOME</a></li>
+            <li class="about"> <a class="menu-text" href="profiles.html">PROFILES</a></li>
+            <li class="portfolio"> <a class="menu-text" href="#">CONTACT</a></li>
+        </ul>
+        
+        </div>
+        </div>
+        </div>
+        </div>
+        </header>
+        <body>
+            <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'personal')">I am the next world champion</button>
+  <button class="tablinks" onclick="openCity(event, 'brand')">I am a commercial brand</button>
+  <button class="tablinks" onclick="openCity(event, 'normal')">I am the 99% of people who DREAM</button>
+</div>
+            
+            <div id="personal" class="tabcontent">
+                <span onclick="this.parentElement.style.display='none'" class="x-right">x</span> 
+  <form class="next-w">
+      First name<br>
+  <input type="text" name="firstname"><br>
+  Last name<br>
+  <input type="text" name="lastname"><br>
+  E-mail<br>
+  <input type="email" name="email"><br>
+
+  
+   <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+  <br>
+  
+  Birthday<br>
+  <input type="date" name="bday"><br>
+  Tell us what you can do for Starboard<br>
+  <textarea class="can-do"></textarea><br>
+    <input type="submit">
+
+  
+  
+  </form>
+</div>
+
+<div id="brand" class="tabcontent">
+                    <span onclick="this.parentElement.style.display='none'" class="x-right">x</span> 
+<form class="next-w">
+      First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  E-mail:<br>
+  <input type="email" name="email"><br>
+  Story behind your brand?<br>
+<input type="textarea" ><br>
+  <input type="submit">
+  
+  
+  </form>
+  
+</div>
+
+<div id="normal" class="tabcontent">
+                    <span onclick="this.parentElement.style.display='none'" class="x-right">x</span> 
+<form class="next-w">
+      First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  E-mail:<br>
+  <input type="email" name="email"><br>
+  
+   <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+  <br>
+  
+  Birthday:
+  <input type="date" name="bday">
+  <input type="submit">
+  
+  
+  </form>
+  
+</div>
+           
+           
+        </body>
+
+
+</div>
+
+
+
+  <script type="text/javascript" src="script.js"></script>
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>

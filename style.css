@@ -71,23 +71,18 @@ ul{
 .mainparagraph{
     position: absolute;
     color:#fefefe;
-    top:90%;
-    left: 20%;
-    font-family: lato, sans-serif;
-    font-size: 3rem;
-
-}
-
-
-.mainparagraph2{
-    position: absolute;
-    color:#fefefe;
-    top:95%;
+    top:60%;
     left: 5%;
     font-family: lato, sans-serif;
-    font-size: 1rem;
-        letter-spacing: 5px;
+    font-size: 2rem;
+    background:lightgrey;
+    border-radius: 5px;
+    padding:20px;
+    letter-spacing: 15px;
+
 }
+
+
 
 .box-text{
     font-family: lato, sans-serif;
@@ -136,6 +131,18 @@ ul{
     width:100%;
     padding: 5%;
 }
+
+.content{
+    font-family: lato;
+    line-height: 10px;
+    right: 10%;
+    bottom: 10px;
+    letter-spacing: 2px;
+}
+
+
+
+
 
 /*---------------------footer*/
 
@@ -186,7 +193,7 @@ ul{
   height: 25px;
   left: -12px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid #6699CC;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -405,13 +412,108 @@ body {
     color: #fefefe;
 }
 
+/*---------------------contact*/
+
+.tablinks{
+    text-align: center;
+    color:grey;
+    font-family: lato, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    line-height: 90px;
+    width:33%;
+    height: 33%;
+    background-color: white;
+    border:2px solid ;
+    border-color: black;
+    
+   
+}
+
+.can-do{
+    width: 50%;
+    height: 100px;
+    text-align: left;
+}
+
+.next-w{
+    text-align: center;
+    font-family: lato, sans-serif;
+    color: grey;
+    font-size:1.3rem;
+    letter-spacing: 2px;
+    line-height: 45px;
+    
+}
 
 
 
+
+
+
+/* Style the buttons inside the tab */
+div.tab button {
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.x-right{
+    float: right;
+    font-size: 2rem;
+    font-family: lato, sans-serif;
+
+}
+
+.x-right:hover{
+    font-size: 2rem;
+    transform: rotateY(720deg);
+        transition: ease-in-out 1s;
+
+    
+
+}
 
 
     
 /*---------------------Desktop*/
+
+@media only screen and (max-width: 864px) {
+    
+    .tablinks{
+        width: 100%;
+    }
+    
+}
+
+
+@media only screen and (min-width: 800px) {
+    
+    .mainparagraph:hover{
+  background-color: grey;
+}
+    
+    
+}
+    
 
 @media only screen and (min-width: 1170px) {
     
@@ -430,36 +532,27 @@ body {
     
   .para-text{
    
-      font-size: 4rem;
-      line-height: 60px;
+      font-size: 3rem;
+      line-height: 50px;
        letter-spacing: 15px;
-       
-       
-
 }
-    
+
+
 }
 
 /*---------------------filter div*/
 
-.container {
-    overflow: hidden;
-}
+
 
 .filterDiv {
-    float: left;
-    background-color: #2196F3;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;
-    display: none; /* Hidden by default */
+   display: none;
+
 }
 
 /* The "show" class is added to the filtered elements */
 .show {
-    display: block;
+        display: block;
+
 }
 
 
