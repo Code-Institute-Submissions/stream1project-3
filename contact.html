@@ -43,17 +43,24 @@
         </div>
         </header>
         <body>
+            <div class="bg-contact row">
+                <div class="next-h col-xs-12">
+                    <h>Contact</h>
+                    
+                </div>
+            </div>
             <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'personal')">I am the next world champion</button>
   <button class="tablinks" onclick="openCity(event, 'brand')">I am a commercial brand</button>
-  <button class="tablinks" onclick="openCity(event, 'normal')">I am the 99% of people who DREAM</button>
+  <button class="tablinks" onclick="openCity(event, 'normal')">I am the 99% that DREAM</button>
 </div>
             
             <div id="personal" class="tabcontent">
                 <span onclick="this.parentElement.style.display='none'" class="x-right">x</span> 
   <form class="next-w">
+     <h>Sponsorship Request</h><br>
       First name<br>
-  <input type="text" name="firstname"><br>
+  <input type="text" name="firstname" autofocus><br>
   Last name<br>
   <input type="text" name="lastname"><br>
   E-mail<br>
@@ -79,15 +86,17 @@
 <div id="brand" class="tabcontent">
                     <span onclick="this.parentElement.style.display='none'" class="x-right">x</span> 
 <form class="next-w">
-      First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
+         <h>Commerical Enquiry</h><br>
+
+      First name<br>
+  <input type="text" name="firstname" autofocus><br>
+  Last name<br>
   <input type="text" name="lastname"><br>
-  E-mail:<br>
+  E-mail<br>
   <input type="email" name="email"><br>
-  Story behind your brand?<br>
-<input type="textarea" ><br>
-  <input type="submit">
+  We love stories so tell us one?<br>
+<textarea class="can-do"></textarea><br>
+  <input id="submit-brand" type="submit">
   
   
   </form>
@@ -97,21 +106,17 @@
 <div id="normal" class="tabcontent">
                     <span onclick="this.parentElement.style.display='none'" class="x-right">x</span> 
 <form class="next-w">
-      First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
+             <h>General Enquiry</h><br>
+
+      First name<br>
+  <input type="text" name="firstname" autofocus><br>
+  Last name<br>
   <input type="text" name="lastname"><br>
-  E-mail:<br>
+  E-mail<br>
   <input type="email" name="email"><br>
-  
-   <input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other
-  <br>
-  
-  Birthday:
-  <input type="date" name="bday">
-  <input type="submit">
+  Your message to Starboard?<br>
+  <textarea class="can-do"></textarea><br>
+  <input id="submit-brand" type="submit">
   
   
   </form>
