@@ -1,3 +1,4 @@
+
 /*---------------------Header*/
 
 
@@ -12,9 +13,15 @@ align-items: center;
 }
 
 
+
 .navbar-toggle{
     margin-top: 15px;
     right: 190%;
+}
+
+.navbar-collapse{
+    width:150px;
+
 }
 
 .menu-text {
@@ -74,11 +81,12 @@ ul{
     top:60%;
     left: 5%;
     font-family: lato, sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     background:lightgrey;
     border-radius: 5px;
     padding:20px;
     letter-spacing: 15px;
+    width:auto;
 
 }
 
@@ -294,9 +302,7 @@ ul{
     
 }
 
-.btn{
-    
-}
+
 
 
 /*---------------------AthleteSocial*/
@@ -418,6 +424,13 @@ body {
     margin:10px 10px;
 }
 
+.bg-empty{
+        background-image: url("assets/icons/logo-bg.jpg");
+        width: 100%;
+        background-size: cover;
+
+    
+}
 /*---------------------contact*/
 
 .tablinks{
@@ -466,6 +479,15 @@ body {
 
 .bg-profiles{
     background-image: url("assets/img/ollieh.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    letter-spacing: 10px;
+    
+}
+
+.bg-izzi{
+    background-image: url("assets/izzi/bg-izzi.jpg");
     background-size: cover;
     background-position: center;
     height: 200px;
@@ -536,11 +558,23 @@ div.tab button.active {
     
 /*---------------------Desktop*/
 
+@media only screen and (max-width: 540px) {
+    
+    .maintext{
+        font-size: 1.5rem;
+        margin-top:5%;
+        letter-spacing: 10px;
+    }
+}
+
+
 @media only screen and (max-width: 864px) {
+    
+   
     
     .tablinks{
         width: 100%;
-        height: 200px;
+        height: auto;
     }
     
 }
@@ -565,10 +599,31 @@ div.tab button.active {
 
 
 }
+
+.bg-izzi{
+    background-image: url("assets/izzi/bg-izzi.jpg");
+    height: 300px;
+    background-position: top;
+    background-attachment: fixed;
+
+    
+}
+
     
     
 }
     
+    @media only screen and (min-width: 767px) {
+        
+        .navbar-collapse{
+    width:550px;
+    letter-spacing: 10px;
+    float: right;
+
+}
+
+    }
+
 
 @media only screen and (min-width: 1170px) {
     
@@ -643,6 +698,18 @@ div.tab button.active {
   color: #c9c9c9;
 }
 
+.mainparagraph{
+    top:60%;
+    left: 5%;
+    font-family: lato, sans-serif;
+    font-size: 2rem;
+    background:lightgrey;
+    border-radius: 5px;
+    padding:20px;
+    letter-spacing: 15px;
+    width: auto;
+
+}
 
 }
 
